@@ -26,6 +26,7 @@ CREATE TABLE clientes (
     nombre_cliente VARCHAR(50) NOT NULL,
     app_cliente VARCHAR(50) NOT NULL,
     apm_cliente VARCHAR(50) NOT NULL,
+	genero_cliente CHAR(2) CONSTRAINT generoo CHECK (genero_cliente IN ('F', 'M', 'O')) NOT NULL,
     direcc_cliente VARCHAR(50) NOT NULL,
     ciudad_cliente VARCHAR(50) NOT NULL,
     tel_cliente VARCHAR(50) NOT NULL,
