@@ -20,16 +20,16 @@ INSERT INTO pizza VALUES (8,'Neoyorquina','Varios ingredientes', 190.00, 77);
 INSERT INTO pizza VALUES (9,'Fugazza','Extra queso y aceitunas',200.00, 33);
 INSERT INTO pizza VALUES (10,'Cuatro estaciones','Variedad de ingredientes', 180.50, 99);
 
-INSERT INTO clientes VALUES (010,'María','Del Rosario','Lucero','Avenida Encino No. 5','Guerrero', '7217782901');
-INSERT INTO clientes VALUES (020,'Roberto','Muñoz','Martínez','Domingo Arenas 17','Guerrero', '7217782901');
-INSERT INTO clientes VALUES (030,'Raúl','Rodríguez','Hernández','Calle Rubí','Oaxaca', '9517291099');
-INSERT INTO clientes VALUES (040,'Daniel','Pérez','Soriano','Calle Zacatlán','Oaxaca', '9518126784');
-INSERT INTO clientes VALUES (050,'Mario','Díaz','Bautista','Avenida Framboyan 17','Guerrero', '7822012901');
-INSERT INTO clientes VALUES (060,'Laura','Acevedo','López','Avenida Caoba 12','Puebla', '7827744101');
-INSERT INTO clientes VALUES (070,'Ernesto','Rosales','Pérez','Avenida la Quebrada','Tamaulipas', '5553105463');
-INSERT INTO clientes VALUES (080,'María','Sánchez','Trejo','Avenida Mexico norte 220','Tamaulipas', '3112125498');
-INSERT INTO clientes VALUES (090,'Cecilia','García','Flores','Federalismo no. 1136','Puebla', '3338538947');
-INSERT INTO clientes VALUES (100,'Ivan','Hernández','González','Cuahutemoc 651 pte','Sonora', '8183766116');
+INSERT INTO clientes VALUES (010,'María','Del Rosario','Lucero', 'F','Avenida Encino No. 5','Guerrero', '7217782901');
+INSERT INTO clientes VALUES (020,'Roberto','Muñoz','Martínez', 'M','Domingo Arenas 17','Guerrero', '7217782901');
+INSERT INTO clientes VALUES (030,'Raúl','Rodríguez','Hernández', 'M','Calle Rubí','Oaxaca', '9517291099');
+INSERT INTO clientes VALUES (040,'Daniel','Pérez','Soriano', 'M','Calle Zacatlán','Oaxaca', '9518126784');
+INSERT INTO clientes VALUES (050,'Mario','Díaz','Bautista', 'M','Avenida Framboyan 17','Guerrero', '7822012901');
+INSERT INTO clientes VALUES (060,'Laura','Acevedo','López', 'F','Avenida Caoba 12','Puebla', '7827744101');
+INSERT INTO clientes VALUES (070,'Ernesto','Rosales','Pérez', 'M','Avenida la Quebrada','Tamaulipas', '5553105463');
+INSERT INTO clientes VALUES (080,'María','Sánchez','Trejo', 'F','Avenida Mexico norte 220','Tamaulipas', '3112125498');
+INSERT INTO clientes VALUES (090,'Cecilia','García','Flores', 'F','Federalismo no. 1136','Puebla', '3338538947');
+INSERT INTO clientes VALUES (100,'Ivan','Hernández','González', 'M','Cuahutemoc 651 pte','Sonora', '8183766116');
 
 INSERT INTO pedidos VALUES (001,'2023-05-21 15:30:00',10, 180.50 , 99, 100);
 INSERT INTO pedidos VALUES (002,'2023-05-21 15:30:00',1, 129.50 ,11, 020);
