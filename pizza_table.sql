@@ -36,7 +36,7 @@ CREATE TABLE pedidos (
     id_pedido INT PRIMARY KEY,
     fecha DATETIME NOT NULL,
     id_pizza INT NOT NULL,
-    nombre_pizza VARCHAR(50), NOT NULL,
+    nombre_pizza VARCHAR(50) NOT NULL,
     total DECIMAL (10,2) NOT NULL,
     id_sucursal INT NOT NULL,
     id_cliente INT NOT NULL,
