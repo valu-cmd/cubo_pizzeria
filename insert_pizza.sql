@@ -31,17 +31,16 @@ INSERT INTO clientes VALUES (080,'María','Sánchez','Trejo', 'F','Avenida Mexico 
 INSERT INTO clientes VALUES (090,'Cecilia','García','Flores', 'F','Federalismo no. 1136','Puebla', '3338538947');
 INSERT INTO clientes VALUES (100,'Ivan','Hernández','González', 'M','Cuahutemoc 651 pte','Sonora', '8183766116');
 
-INSERT INTO pedidos VALUES (001,'2023-05-21 15:30:00',10, 180.50 , 99, 100);
-INSERT INTO pedidos VALUES (002,'2023-05-21 15:30:00',1, 129.50 ,11, 020);
-INSERT INTO pedidos VALUES (003,'2023-05-21 15:30:00',8, 190.00 ,77, 060);
-INSERT INTO pedidos VALUES (004,'2023-05-21 15:30:00',6, 190.00 ,88, 010);
-INSERT INTO pedidos VALUES (005,'2023-05-21 15:30:00',2, 180.00,22, 030);
-INSERT INTO pedidos VALUES (006,'2023-05-21 15:30:00',6, 190.00,88, 050);
-INSERT INTO pedidos VALUES (007,'2023-05-21 15:30:00',7, 200.00,66, 070);
-INSERT INTO pedidos VALUES (008,'2023-05-21 15:30:00',5, 130.50,22, 040);
-INSERT INTO pedidos VALUES (009,'2023-05-21 15:30:00',7, 200.00,66, 080);
-INSERT INTO pedidos VALUES (010,'2023-05-21 15:30:00',8, 190.00,77, 090);
-
+INSERT INTO pedidos VALUES (001,'2023-05-21 15:30:00',10, 'Cuatro estaciones',180.50 , 99, 100);
+INSERT INTO pedidos VALUES (002,'2023-05-21 15:30:00',1, 'Lamborghini',129.50 ,11, 020);
+INSERT INTO pedidos VALUES (003,'2023-05-21 15:30:00',8, 'Neoyorquina',190.00 ,77, 060);
+INSERT INTO pedidos VALUES (004,'2023-05-21 15:30:00',6, 'Marina',190.00 ,88, 010);
+INSERT INTO pedidos VALUES (005,'2023-05-21 15:30:00',2, 'Hula Hula',180.00,22, 030);
+INSERT INTO pedidos VALUES (006,'2023-05-21 15:30:00',6, 'Marina',190.00,88, 050);
+INSERT INTO pedidos VALUES (007,'2023-05-21 15:30:00',7, 'Funghi',200.00,66, 070);
+INSERT INTO pedidos VALUES (008,'2023-05-21 15:30:00',5, 'Infernal',130.50,22, 040);
+INSERT INTO pedidos VALUES (009,'2023-05-21 15:30:00',7, 'Funghi',200.00,66, 080);
+INSERT INTO pedidos VALUES (010,'2023-05-21 15:30:00',8, 'Neoyorquina',190.00,77, 090);
 
 INSERT INTO ingredientes VALUES (01,'Pepperoni, queso mozzarella', 1);
 INSERT INTO ingredientes VALUES (02,'Jamón, piña, queso mozzarella', 2);
