@@ -1,3 +1,5 @@
+USE pizzeria;
+
 INSERT INTO sucursales VALUES (11,'Pizzería Russel','San Agustín Oapan','Guerrero',7218892870);
 INSERT INTO sucursales VALUES (22,'Pizzería Russel','San Martín Tilcajete','Oaxaca',9517839015);
 INSERT INTO sucursales VALUES (33,'Pizzería Russel','Poza Rica','Veracruz',7823890180);
