@@ -1,3 +1,5 @@
+CREATE DATABASE pizzeria
+
 DROP TABLE ingredientes;
 DROP TABLE pedidos;
 DROP TABLE pizza;
